@@ -126,7 +126,7 @@ function touch(tokenId) {
 // 浏览器优先直连，失败/超时才回落到这里，所以正常情况下这两个接口很少被调用。
 // Nominatim 使用条款要求带可识别的 User-Agent，并把频率压在 1 请求/秒以内。
 const USER_AGENT =
-  "ios-location-spoofer-picker/1.0 (+https://github.com/mekos2772/ios-location-spoofer)";
+  "ios-location-spoofer-picker/1.0 (+https://github.com/littcc/ios-location-spoofer)";
 const UPSTREAM_TIMEOUT = 5000;      // Railway 在美国且无代理，5 秒是充分上界
 const UPSTREAM_MAX_BYTES = 512 * 1024;
 var lastGeocodeAt = 0;

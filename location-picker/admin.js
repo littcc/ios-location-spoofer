@@ -60,7 +60,7 @@ function originOf(req) {
 }
 
 const SCRIPT_URL =
-  "https://raw.githubusercontent.com/mekos2772/ios-location-spoofer/main/location-spoofer.js";
+  "https://raw.githubusercontent.com/littcc/ios-location-spoofer/main/location-spoofer.js";
 const MITM_HOSTS =
   "gs-loc.apple.com, gs-loc-cn.apple.com, gsp-ssl.ls.apple.com, " +
   "bluedot.is.autonavi.com, bluedot.is.autonavi.com.gds.alibabadns.com";
