@@ -54,7 +54,7 @@ curl https://<你的服务>.up.railway.app/health
 # {"ok":true,"persistent":true,"dataFile":"/data/app.db","tokens":1,"admin":true}
 
 curl 'https://<你的服务>.up.railway.app/loc.json?token=<TOKEN>'
-# {"enabled":true,"latitude":37.3349,...}
+# {"enabled":true,"latitude":39.11,"longitude":117.20,...}
 ```
 
 `persistent` 为 `false` → 卷没挂上或 `DATA_FILE` 指到了不可写的路径，回第 5 步检查。

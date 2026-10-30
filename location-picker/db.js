@@ -16,8 +16,8 @@ const path = require("path");
 // 与 location-spoofer.js 的 DEFAULT_CONFIG 对齐
 const DEFAULT = {
   enabled: true,
-  latitude: 37.3349,
-  longitude: -122.00902,
+  latitude: 39.11,
+  longitude: 117.20,
   altitude: 530,
   horizontalAccuracy: 39,
   verticalAccuracy: 1000

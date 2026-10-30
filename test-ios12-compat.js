@@ -74,8 +74,8 @@ function expectedSummary(latitude, longitude) {
 var syntheticPayload = makePayload(22.544577, 113.94114);
 var syntheticResponse = api.buildAppleWLocResponse(syntheticPayload);
 var syntheticResult = api.spoofAppleResponse(syntheticResponse, {
-  latitude: 37.3349,
-  longitude: -122.00902,
+  latitude: 39.11,
+  longitude: 117.20,
   horizontalAccuracy: 9,
   verticalAccuracy: 20,
   altitude: 15
@@ -86,7 +86,7 @@ assert.strictEqual(syntheticResult.wifiCount, 1);
 assert.strictEqual(syntheticResult.cellCount, 1);
 assert.strictEqual(
   api.patchedPayloadSummary(syntheticResult.payload),
-  expectedSummary(37.3349, -122.00902)
+  expectedSummary(39.11, 117.20)
 );
 
 var arpcResponse = api.serializeArpc({

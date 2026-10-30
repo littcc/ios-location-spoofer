@@ -7,8 +7,8 @@
 
 [Argument]
 enabled = switch,true,tag=启用定位修改,desc=关闭后脚本直接放行原始定位数据
-latitude = input,"37.3349",tag=纬度(备用),desc=未配置远程时生效
-longitude = input,"-122.00902",tag=经度(备用),desc=未配置远程时生效
+latitude = input,"39.11",tag=纬度(备用),desc=未配置远程时生效
+longitude = input,"117.20",tag=经度(备用),desc=未配置远程时生效
 altitude = input,"530",tag=海拔(米),desc=目标海拔
 horizontalAccuracy = input,"39",tag=水平精度(米),desc=越小越像 GPS；网页选点时以 loc.json 为准
 verticalAccuracy = input,"1000",tag=垂直精度(米),desc=配真实海拔后可调小；网页选点时以 loc.json 为准

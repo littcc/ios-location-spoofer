@@ -13,8 +13,8 @@ const KV_KEY = "loc";
 
 const DEFAULT = {
   enabled: true,          // false = 脚本放行原始响应（恢复真实定位）
-  latitude: 37.3349,
-  longitude: -122.00902,
+  latitude: 39.11,
+  longitude: 117.20,
   altitude: 530,
   horizontalAccuracy: 39,
   verticalAccuracy: 1000,

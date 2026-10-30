@@ -326,7 +326,7 @@ https://myloc.example.com/health
 
 ```ini
 [Script]
-iOS Location Spoofer = type=http-response,pattern=^https?:\/\/(?:gs-loc(?:-cn)?\.apple\.com|gsp-ssl\.ls\.apple\.com|bluedot\.is\.autonavi\.com(?:\.gds\.alibabadns\.com)?)\/clls\/wloc(?:\?.*)?$,requires-body=1,binary-body-mode=1,max-size=1048576,timeout=10,script-path=https://raw.githubusercontent.com/littcc/ios-location-spoofer/main/location-spoofer.js,argument=mode=response&latitude=37.3349&longitude=-122.00902&horizontalAccuracy=39&verticalAccuracy=1000&altitude=530&debug=false&configUrl=https://你的域名/loc.json?token=你的TOKEN
+iOS Location Spoofer = type=http-response,pattern=^https?:\/\/(?:gs-loc(?:-cn)?\.apple\.com|gsp-ssl\.ls\.apple\.com|bluedot\.is\.autonavi\.com(?:\.gds\.alibabadns\.com)?)\/clls\/wloc(?:\?.*)?$,requires-body=1,binary-body-mode=1,max-size=1048576,timeout=10,script-path=https://raw.githubusercontent.com/littcc/ios-location-spoofer/main/location-spoofer.js,argument=mode=response&latitude=39.11&longitude=117.20&horizontalAccuracy=39&verticalAccuracy=1000&altitude=530&debug=false&configUrl=https://你的域名/loc.json?token=你的TOKEN
 
 [MITM]
 hostname = %APPEND% gs-loc.apple.com, gs-loc-cn.apple.com, gsp-ssl.ls.apple.com, bluedot.is.autonavi.com, bluedot.is.autonavi.com.gds.alibabadns.com
@@ -428,7 +428,7 @@ https://你的域名/loc.json?token=你的TOKEN
 如果经纬度还是默认：
 
 ```text
-37.3349, -122.00902
+39.11, 117.20
 ```
 
 说明你还没有在地图上点图钉并保存。

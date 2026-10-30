@@ -66,16 +66,16 @@ If the proxy Request List shows `MITM failed`, this usually points to MITM hostn
 
 ## Changing coordinates
 
-Default is Apple Park (37.3349, -122.00902). Change it in the module arguments:
+Default is Tianjin (39.11, 117.20). Change it in the module arguments:
 
 ```
-latitude=39.9042&longitude=116.4074
+latitude=39.11&longitude=117.20
 ```
 
 | Name | Default | Description |
 |------|---------|-------------|
-| `latitude` | 37.3349 | Target latitude |
-| `longitude` | -122.00902 | Target longitude |
+| `latitude` | 39.11 | Target latitude |
+| `longitude` | 117.20 | Target longitude |
 | `address` | (empty) | Address search (entered in the Loon plugin UI; resolved to coordinates online; takes precedence over manual lat/lng) |
 | `horizontalAccuracy` | 39 | Horizontal accuracy |
 | `verticalAccuracy` | 1000 | Vertical accuracy |
